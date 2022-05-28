@@ -1,0 +1,17 @@
+{
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Sublime Monokai Adaptive",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.autopep8Args": [
+        "--ignore=E501"
+    ],
+    "python.linting.flake8Args": [
+        "--ignore=E501,E302"
+    ],
+    "git.autofetch": true,
+    "python.analysis.extraPaths": [
+        "/home/kotarokuroda/.local/share/virtualenvs/dijkstra-vWM0P6jt/lib/python3.9/site-packages/"
+    ],
+}
