@@ -3,3 +3,8 @@
 スタート地点からゴール地点への最短経路を求めるプログラムです。
 
 # how to use
+[shortest_path.py](https://github.com/Kotaro-Kuroda/dijkstra/blob/master/shortest_path.py)のmain関数の中身で、
+頂点数、距離マップ、スタート地点、ゴール地点を設定し、以下を実行。
+```bash
+python shortest_path.py
+```
