@@ -29,13 +29,14 @@ class Dijkstra:
 
 
 def main():
-    vertices = [i for i in range(0, 6)]
+    num_vertices = 6
+    list_vertices = [i for i in range(0, 6)]
     distance_map = np.array(
         [[0, 3, 8, np.inf, np.inf, np.inf], [3, 0, np.inf, 4, 9, np.inf], [8, np.inf, 0, 7, 2, np.inf]
             , [np.inf, 4, 7, 0, np.inf, 8], [np.inf, 9, 2, np.inf, 0, 4], [np.inf, np.inf, np.inf, 8, 4, 0]])
     start = 0
     goal = 5
-    dijkstra = Dijkstra(vertices, distance_map, start, goal)
+    dijkstra = Dijkstra(list_vertices, distance_map, start, goal)
     path, distance = dijkstra.shortest_path()
     shortest_path = str(goal)
     prev = goal
