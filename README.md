@@ -3,8 +3,10 @@
 スタート地点からゴール地点への最短経路を求めるプログラムです。
 
 # how to use
-[shortest_path.py](https://github.com/Kotaro-Kuroda/dijkstra/blob/master/shortest_path.py)のmain関数の中身で、
-頂点数、距離マップ、スタート地点、ゴール地点を設定し、以下を実行。
+[shortest_path.py](https://github.com/Kotaro-Kuroda/dijkstra/blob/master/shortest_path.py)を実行。
 ```bash
-python shortest_path.py
+python shortest_path.py --txt path/to/text/file --start start_node --goal goal_node
 ```
+--txt テキストファイルへのパス。テキストファイルの一行目に頂点数を、二行目以降には 「頂点1, 頂点2, 距離」を記述。\\
+--start スタート地点を指定\\
+--goal ゴール地点を指定\\
